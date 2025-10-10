@@ -1,0 +1,88 @@
+@media screen and (max-width: 540px){
+    body {
+        width: 97vw;
+    }
+
+    .formulario {
+        height: 100%;
+    }
+
+    .form-conteudo {
+        height: 870px;
+        
+    }
+
+    .campo {
+        display: flex;
+        flex-direction: column;
+        width: 82vw;
+    }
+
+    .selecao {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    button {
+        width: 90%;
+    }
+
+    .forta-area{
+        /* width: 100%; */
+    }
+
+    .oferta-imagens {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .imagens-quatro {
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imagens-quatro img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .imagens-quatro {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .imagens-quatro figure {
+        width: 25%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+    }
+
+    .rodape {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .formulario {
+        padding: 45px 0;
+    }
+}
+
