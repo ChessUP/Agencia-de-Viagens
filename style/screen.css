@@ -29,7 +29,7 @@
         width: 90%;
     }
 
-    .oforta-area{
+    .oferta-area{
         width: 100%;
     }
 
@@ -37,29 +37,26 @@
         flex-direction: column;
         width: 100%;
         height: auto;
-        margin: 0;
-        padding: 0;
-        
+        padding: 20px;
+        gap: 20px;
     }
 
     .imagens-destaque { 
         width: 100%;
+        height: 300px;
     }
 
     .imagens-quatro {
-        display: flex;
-        flex-direction: column;
         width: 100%;
-        height: auto;
-        margin: 0;
-        padding: 0;
-        gap: 10px;
+        gap: 20px;
+        
     }
 
-    .figure-quatro {
+    .imagens-quatro figure {
         width: 100%;
-        height: 200px;
+        height: 350px;
         margin: 0;
+        padding: 0;
     }
 
     .figure-quatro img {
@@ -68,23 +65,15 @@
         object-fit: cover;
     }
 
-    /* .figure-quatro img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    } */
+    .imagens-destaque figcaption, .imagens-quatro figcaption {
+        height: 40px;
+        font-size: 1.5em;
+    }
 
-    /* .imagens-quatro {
+    .imagens-natureza {
         flex-direction: column;
-        gap: 0;
-    } */
+    }
 
-    /* .imagens-quatro figure {
-        width: 25%;
-        height: auto;
-        margin: 0;
-        padding: 0;
-    } */
 
     footer {
         flex-direction: column;
@@ -96,6 +85,58 @@
     .rodape {
         margin-bottom: 40px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .espaco-campo {
+        padding-top: 5px;
+    }
+
+    input, select {
+        border: 1px solid gray;
+    }
+
+    .form-conteudo {
+        height: 70%;
+        width: 100%;
+    }
+
+    .oferta-area {
+        height: 100vh;
+    }
+
+    .imagens-destaque {
+        width: 98%;
+        height: 200px;
+        margin-left: 8px;
+    }
+
+    .imagens-quatro figure {
+        width: 100%;
+        height: 200px;
+    }
+
+    .figure-quatro {
+        width: 100%;
+    }
+
+    .oferta-imagens {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .imagens-quatro {
+        flex-direction: row;
+        width: 100%;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .imagens-natureza {
+        flex-direction: column;
+    }
+
+
 }
 
 @media screen and (max-width: 1100px){
