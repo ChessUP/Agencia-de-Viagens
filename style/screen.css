@@ -1,6 +1,7 @@
 @media screen and (max-width: 540px){
     body {
-        width: 97vw;
+        width: 100%;
+        overflow-x: hidden;
     }
 
     .formulario {
@@ -28,8 +29,8 @@
         width: 90%;
     }
 
-    .forta-area{
-        /* width: 100%; */
+    .oforta-area{
+        width: 100%;
     }
 
     .oferta-imagens {
@@ -41,32 +42,49 @@
         
     }
 
+    .imagens-destaque { 
+        width: 100%;
+    }
+
     .imagens-quatro {
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         height: auto;
         margin: 0;
         padding: 0;
+        gap: 10px;
     }
 
-    .imagens-quatro img {
+    .figure-quatro {
         width: 100%;
-        height: auto;
-        max-width: 100%;
+        height: 200px;
+        margin: 0;
+    }
+
+    .figure-quatro img {
+        width: 100%;
+        height: 100%;
         object-fit: cover;
     }
 
-    .imagens-quatro {
+    /* .figure-quatro img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    } */
+
+    /* .imagens-quatro {
         flex-direction: column;
         gap: 0;
-    }
+    } */
 
-    .imagens-quatro figure {
+    /* .imagens-quatro figure {
         width: 25%;
         height: auto;
         margin: 0;
         padding: 0;
-    }
+    } */
 
     footer {
         flex-direction: column;

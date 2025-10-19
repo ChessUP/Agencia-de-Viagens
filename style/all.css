@@ -5,8 +5,9 @@
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     background-color: rgba(218, 218, 218, 0.788);
+    overflow-x: hidden;
 }
 
 header {
@@ -57,7 +58,7 @@ header {
 
 
 .form-conteudo {
-    width: 90vw;
+    width: 90%;
     height: 96%;
     background-color: white;
 }
